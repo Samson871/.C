@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int i,j,n=5;
+    start=1
+    for(i=0;i<n;i++)
+    {
+        val=start
+        for(j=0;j<i;j++)
+        {
+            printf("%d",val);
+            val+=n-j+1
+        }
+        start++
+        printf("\n");
+    }
+   
+
+    return 0;
+}
